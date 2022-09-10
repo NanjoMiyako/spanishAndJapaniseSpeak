@@ -12,8 +12,9 @@
 <form>
     <input id="file" type="file" name="file">
 </form>
-日本語<p id="JapanesePhrase"></p><br>
+
 スペイン語<p id="SpanishPhrase"></p><br>
+日本語<p id="JapanesePhrase"></p><br>
 
 <button onclick="speakSpnshAndJap()">読み上げ</button><br>
 
@@ -42,8 +43,9 @@ function Yomiage(idx){
   	  jph = phs[0]
   	  sph = phs[1]
   	  
-	  speakJ(jph)
+
 	  speakES(sph)
+	  speakJ(jph)
 	  
 	  setPhase(jph, sph)
 	  

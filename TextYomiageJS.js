@@ -20,9 +20,10 @@ function Yomiage(idx){
   	  phs = lines[idx].split(',');
   	  jph = phs[0]
   	  sph = phs[1]
-  	  
+
+	  speakES(sph)  	  
 	  speakJ(jph)
-	  speakES(sph)
+
 	  
 	  setPhase(jph, sph)
 	  
